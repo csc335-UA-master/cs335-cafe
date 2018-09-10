@@ -16,4 +16,8 @@ public class Menu {
 	public double getPrice(String in) {
 		return items.get(in).getPrice();
 	}
+	
+	public String getQuip(String in) {
+		return items.get(in).toString();
+	}
 }

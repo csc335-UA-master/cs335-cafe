@@ -18,11 +18,13 @@ public class CashRegister {
 		if (!cards.containsKey(id)) {
 			cards.put(id, new PunchCard());
 		}
+		
 		PunchCard punchCard = cards.get(id);
 		
 		System.out.print("What would you like to drink? ");
-		String userInput = input.next();
+		String userInput = input.next().toLowerCase();
 		double currentTab = 0;
+		
 		while (!userInput.equals("no")) {
 			if (!punchCard.hasFreeDrink()) {
 				currentTab += menu.getPrice(userInput);
@@ -32,8 +34,9 @@ public class CashRegister {
 				System.out.println("This one's on us");
 			}
 			
+			System.out.println(menu.getQuip(userInput));
 			System.out.print("Anything else? ");
-			userInput = input.next();
+			userInput = input.next().toLowerCase();
 		}
 		
 		System.out.printf("Cool, that will be $%.2f, take care!\n", currentTab);
