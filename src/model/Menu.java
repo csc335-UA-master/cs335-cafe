@@ -8,9 +8,9 @@ public class Menu {
 	
 	public Menu() {
 		items = new HashMap<>();
-		items.put("Mocha", new Mocha());
+		items.put("mocha", new Mocha());
 		items.put("Americano", new Americano());
-		items.put("Cold Brew", new ColdBrew());
+		items.put("iced", new ColdBrew());
 	}
 	
 	public double getPrice(String in) {
