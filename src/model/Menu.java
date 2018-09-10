@@ -20,4 +20,13 @@ public class Menu {
 	public String getQuip(String in) {
 		return items.get(in).toString();
 	}
+	
+	public String toString() {
+		String ret = "We have:\n";
+
+		for(String item: items.keySet()) {
+			ret +=  item + "\n";
+		}
+		return ret;
+	}
 }

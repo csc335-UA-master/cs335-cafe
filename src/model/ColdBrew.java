@@ -6,6 +6,6 @@ public class ColdBrew extends Coffee {
 	}
 	
 	public String toString() {
-		return "Room for cream or sugar?";
+		return "It's nitrogenated!";
 	}
 }
