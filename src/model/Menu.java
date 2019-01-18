@@ -4,13 +4,14 @@ import java.util.HashMap;
 
 public class Menu {
 	
-	private HashMap<String, Coffee> items;
+	private HashMap<String, MenuItem> items;
 	
 	public Menu() {
 		items = new HashMap<>();
-		items.put("mocha", new Mocha());
-		items.put("Americano", new Americano());
-		items.put("iced", new ColdBrew());
+		items.put("BigMac", new BigMac());
+		items.put("MediumMac", new MediumMac());
+		items.put("SmallMac", new SmallMac());
+		items.put("MiceCream", new MiceCream());
 	}
 	
 	public double getPrice(String in) {
@@ -22,10 +23,10 @@ public class Menu {
 	}
 	
 	public String toString() {
-		String ret = "We have:\n";
+		String ret = "Menu:\n";
 
 		for(String item: items.keySet()) {
-			ret +=  item + "\n";
+			ret += "  " + item + "\n";
 		}
 		return ret;
 	}
