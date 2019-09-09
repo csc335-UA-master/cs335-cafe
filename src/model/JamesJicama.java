@@ -7,6 +7,6 @@ public class JamesJicama extends MenuItem {
 	}
 
 	public String toString() {
-		return "James' Jicama Sandwich";
+		return "A Jicama Sandwich";
 	}
 }
