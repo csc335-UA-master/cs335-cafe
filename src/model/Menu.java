@@ -8,10 +8,10 @@ public class Menu {
 	
 	public Menu() {
 		items = new HashMap<>();
-		items.put("James's Jicama Sandwich", new JamesJicama());
-		items.put("Austen's Austere Sandwich", new AustensAustere());
-		items.put("Tim's Torture Sandwich", new TimsTorture());
-		items.put("Ryan's Roast Sandwich", new RyansRoast());
+		items.put("JamessJicama", new JamesJicama());
+		items.put("AustensAustere", new AustensAustere());
+		items.put("TimsTorture", new TimsTorture());
+		items.put("RyansRoast", new RyansRoast());
 	}
 	
 	public double getPrice(String in) {
