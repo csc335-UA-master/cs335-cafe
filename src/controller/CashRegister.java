@@ -16,7 +16,7 @@ public class CashRegister {
 
 		do {
 
-			System.out.println("Welcome to BeyondBrad, what's your name? ");
+			System.out.println("Welcome to \"It's Pizza, It's DeJournett\", what's your name? ");
 
 			String customerName = input.next();
 

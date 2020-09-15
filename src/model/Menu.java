@@ -8,10 +8,13 @@ public class Menu {
 	
 	public Menu() {
 		items = new HashMap<>();
-		items.put("JamessJicama", new JamesJicama());
+		items.put("AlexsAnchovy", new AlexsAnchovy());
 		items.put("AustensAustere", new AustensAustere());
-		items.put("TimsTorture", new TimsTorture());
-		items.put("RyansRoast", new RyansRoast());
+		items.put("AkshithsBBQChicken", new AkshithsBBQChicken());
+		items.put("MatthewsMargarita", new MatthewsMargarita());
+		items.put("ThomassToasted", new ThomassToasted());
+		items.put("MinhsMelt", new MinhsMelt());
+		items.put("MichaelsMushroom", new MichaelsMushroom());
 	}
 	
 	public double getPrice(String in) {

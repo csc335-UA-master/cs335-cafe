@@ -1,6 +1,6 @@
 # CSC 335 Lab 2: It's not Pizza, it's DeJournett
 
-We have a small Point of Sale terminal for a pizza shop that has a Loyalty Program 
+We have a small Point of Sale terminal for a pizza and sandwich shop that has a Loyalty Program 
 to reward repeat customers. Every fifth visit, the customer gets a 10% discount.
 
 We will model the store as a loop of customers who visit and make multiple orders. You
@@ -16,6 +16,6 @@ http://draw.io to view. Turn that diagram into the implementation of PunchCard.
 and Nth-visit discounts to the customer's total. Remember, it's every Nth visit,
 not just the Nth visit.
 
-Add the other classes to the UML diagram and make sure to submit everything via
+3. Add the other classes to the UML diagram and make sure to submit everything via
 GitHub by the due date.
 
