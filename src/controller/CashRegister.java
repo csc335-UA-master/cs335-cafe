@@ -16,7 +16,7 @@ public class CashRegister {
 
 		do {
 
-			System.out.println("Welcome to NickDonalds, what's your name? ");
+			System.out.println("Welcome to Arizona Michael's, what's your name? ");
 
 			String customerName = input.next();
 
@@ -24,7 +24,7 @@ public class CashRegister {
 
 			PunchCard userCard = loyalty.getPunchCard(customerName);
 
-			// TODO add visit to punch card
+			// TODO add visit to punch card 
 
 			System.out.print("What would you like to order? ");
 			String userInput = input.next();
