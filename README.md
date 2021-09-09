@@ -19,5 +19,4 @@ and Nth-visit discounts to the customer's total. Remember, it's every Nth visit,
 not just the Nth visit. So if N=3, every third visit, etc.
 
 Add the other classes to the UML diagram and make sure to submit everything via
-GitHub by next week's section.
-
+GitHub by the deadline.
