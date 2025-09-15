@@ -1,8 +1,7 @@
-# CSC 335 Lab 2: Arizona Michael's
+# CSC 335 Lab 2: Gabe-ritos's
 
 Honoring the CSC 335 tradition of naming our cafe after the head TA we have a small 
-Point of Sale terminal for a sandwich shop (not
-to be confused with Jersey Mike's) that has a Loyalty Program 
+Point of Sale terminal for a little Mexican food place that has a Loyalty Program 
 to reward repeat customers. Every fifth visit, the customer gets a 10% discount.
 
 We will model the store as a loop of customers who visit and make multiple orders. You
