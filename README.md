@@ -1,6 +1,9 @@
 # CSC 335 Lab 2: Gabe-ritos's
 
-Honoring the CSC 335 tradition of naming our cafe after the head TA we have a small 
+We normally honoring the CSC 335's head TA by our cafe after them. But this semester is a bit
+different in TA coverage, so we're reusing last semester's Cafe but with Isa (returning) and Taoseef (new) added.
+
+We have a small 
 Point of Sale terminal for a little Mexican food place that has a Loyalty Program 
 to reward repeat customers. Every fifth visit, the customer gets a 10% discount.
 
