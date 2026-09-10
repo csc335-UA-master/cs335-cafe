@@ -15,6 +15,7 @@ public class Menu {
 		items.put("ElbaraasElote", new ElbaraasElote());
 		items.put("AndrewsAlPastor", new AndrewsAlPastor());
 		items.put("IsasIztacmole", new IsasIztacmole());
+		items.put("TaoseefsTaco", new TaoseefsTaco());
 	}
 	
 	public double getPrice(String in) {
